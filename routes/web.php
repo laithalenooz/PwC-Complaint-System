@@ -19,6 +19,10 @@ Route::get( '/', function () {
 
 Auth::routes();
 
+// Login With Google
+Route::get('login/google', 'Auth\LoginController@redirectToGoogle')->name('login.google');
+Route::get('login/google/callback', 'Auth\LoginController@handleGoogleCallback');
+
 // User Routes
 Route::post( 'complaint', 'ComplaintController@store' )->name( 'complaint.submit' );
 

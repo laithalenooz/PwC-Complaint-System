@@ -58,6 +58,14 @@
                                 </div>
                             </div>
 
+                            <div class="form-group row">
+                                <div class="col-md-6 offset-md-3">
+                                    <a href="{{route('login.google')}}" class="btn btn-danger btn-block">Login With Google</a>
+                                </div>
+                            </div>
+
+                            <p style="text-align: center">OR</p>
+
                             <div class="form-group row mb-0">
                                 <div class="col-md-8 offset-md-4">
                                     <button type="submit" class="btn btn-primary">
