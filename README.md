@@ -1,4 +1,4 @@
-## Laravel 7 multiple authentication system
+## Laravel multiple authentication and complaint system system
 
 ## Clone this repo
 ```
@@ -16,7 +16,8 @@ $ composer install
 make a copy of .env.example and rename to .env
 $ php artisan key:generate
 put database credentials in .env file
-add the AWS config
+add the AWS keys
+add google keys
 ```
 
 ## Migrate and insert records
@@ -30,6 +31,6 @@ visit at : https://mailtrap.io/
 put mail credentials in .env file
 ```
 
-## Facing any problem? Contact with me
+## Facing any problem? Contact me
 
 laithalenooz@gmail.com
